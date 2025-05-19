@@ -1,0 +1,49 @@
+cat | cat | ls
+./minishell
+cat Makefile | grep q | grep e | wc -l
+./minishell
+./minishell
+echo $SHLVL
+./minishell
+echo $SHLVL
+echo $SHLVL
+echo $SHLVL
+./minishell
+echo coucou
+echo $SHLVL
+./minishell
+  
+  
+  
+   
+  
+       
+  
+   
+ls
+<<EOF cat
+echo $?
+<<EOF cat
+echo $?
+cat | grep q
+<output cat | grep q
+<output cat | grep q
+<output cat | grep q | grep d
+echo "cpicpi laasdh adjhajshd" >output
+echo "salut la compagnie" >output
+cat output
+export | grep q
+export | grep A
+echo >output 1 >output0 2  >output2 3
+echo >output 1 >output0 2  >output2 3
+cat output2
+ls
+cat history_2
+unset SHLVL
+cat history_2
+ls | grep q
+ls | grep m
+<zozo ls | grep m
+<zozo ls | grep m
+<zozo ls | grep m | <zozo ls | ls | grep m
+<zozo ls | grep m | <zozo ls | ls | grep m | <zozo | ls
