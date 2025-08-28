@@ -1,1 +1,5 @@
-projet minishell de l'ecole 42.
+<div align="center">
+  <h2>minishell - 42 project</h2>
+  <img src="./bin/minishell.jpg"  />
+  <br>
+</div>
