@@ -1,5 +1,5 @@
 <div align="center">
   <h2>minishell - 42 project</h2>
-  <img src="./bin/minishell.gif"  />
+  <img src="./bin/minishell.png"  />
   <br>
 </div>
