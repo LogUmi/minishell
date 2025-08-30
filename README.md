@@ -3,56 +3,55 @@
   <img src="./bin/minishell.png"  />
   <br>
 </div>
-# 🐚 Minishell
 
 ![Language](https://img.shields.io/badge/language-C-blue)
 ![Norminette](https://img.shields.io/badge/norminette-passed-brightgreen)
 ![42](https://img.shields.io/badge/school-42-black)
-![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Status](https://img.shields.io/badge/status-completed-brightgreen)
 
-> Une réimplémentation d’un shell UNIX minimaliste en C, réalisée dans le cadre du cursus **École 42**.  
-> L’objectif est de comprendre les mécanismes bas-niveau d’un shell (fork, exec, pipes, signaux...).
+> A reimplementation of a minimalist UNIX shell in C, developed as part of the **École 42** curriculum.  
+> The goal is to understand the low-level mechanisms of a shell (fork, exec, pipes, signals...).
 
 ---
 
-## 📖 Sommaire
+## 📖 Table of Contents
 - [Description](#-description)
-- [Fonctionnalités](#-fonctionnalités)
+- [Features](#-features)
 - [Installation](#-installation)
-- [Utilisation](#-utilisation)
-- [Architecture](#-architecture)
-- [Exemples](#-exemples)
+- [Usage](#-usage)
+- [Project Structure](#-project-structure)
+- [Examples](#-examples)
 - [Roadmap](#-roadmap)
-- [Crédits](#-crédits)
-- [Licence](#-licence)
+- [Credits](#-credits)
+- [License](#-license)
 
 ---
 
 ## 📝 Description
-`minishell` est un shell simplifié qui imite le comportement de `bash`.  
-Il permet d’exécuter des commandes, de gérer les redirections, les pipes et certaines builtins.
+`minishell` is a simplified shell that mimics the behavior of `bash`.  
+It can execute commands, handle redirections, pipes, and several builtins.
 
 ---
 
-## ✨ Fonctionnalités
-- ✅ Exécution de commandes avec `execve`
-- ✅ Gestion des pipes `|`
+## ✨ Features
+- ✅ Execute commands using `execve`
+- ✅ Pipe handling `|`
 - ✅ Redirections `>`, `<`, `>>`
-- ✅ Variables d’environnement
-- ✅ Gestion des signaux `Ctrl-C`, `Ctrl-D`, `Ctrl-\`
+- ✅ Environment variables
+- ✅ Signal handling (`Ctrl-C`, `Ctrl-D`, `Ctrl-\`)
 - ✅ Builtins (`cd`, `echo`, `pwd`, `export`, `unset`, `env`, `exit`)
-- 🚧 Expansions avancées (en cours)
+- 🚧 Advanced expansions (in progress)
 
 ---
 
 ## ⚙️ Installation
-Prérequis :  
-- OS : Linux ou macOS  
-- Compilateur C compatible (gcc, clang)  
+Requirements:  
+- OS: Linux or macOS  
+- C compiler (gcc, clang)  
 - `make`
 
 ```bash
-git clone https://github.com/<ton-pseudo>/minishell.git
+git clone https://github.com/<your-username>/minishell.git
 cd minishell
 make
 ./minishell
@@ -60,8 +59,8 @@ make
 
 ---
 
-## 🖥 Utilisation
-Exemple d’exécution :
+## 🖥 Usage
+Example run:
 
 ```bash
 $ ./minishell
@@ -73,12 +72,12 @@ minishell> exit
 
 ---
 
-## 📂 Architecture
+## 📂 Project Structure
 
 ```
 .
-├── include/        # Fichiers headers (.h)
-├── src/            # Code source (.c)
+├── include/        # Header files (.h)
+├── src/            # Source code (.c)
 │   ├── builtins/
 │   ├── exec/
 │   ├── parsing/
@@ -89,7 +88,7 @@ minishell> exit
 
 ---
 
-## 🔎 Exemples
+## 🔎 Examples
 - `ls -la | grep .c > sources.txt`
 - `echo "Hello $USER"`
 - `cat < input.txt | grep error >> log.txt`
@@ -97,17 +96,18 @@ minishell> exit
 ---
 
 ## 🚀 Roadmap
-- [ ] Support des opérateurs logiques `&&` et `||`
-- [ ] Ajout de l’historique des commandes
-- [ ] Complétion automatique
+- [ ] Add logical operators `&&` and `||`
+- [ ] Add command history
+- [ ] Implement auto-completion
 
 ---
 
-## 👤 Crédits
-Projet réalisé par **Loïc Gérard** – [École 42 Perpignan](https://42perpignan.fr).  
-📧 Contact : loic.gerard4@…  
+## 👤 Credits
+Project developed by **Loïc Gérard** – [École 42 Perpignan](https://42perpignan.fr).  
+📧 Contact: loic.gerard4@…  
 
 ---
 
-## 📜 Licence
-Ce projet est sous licence MIT. Vous pouvez l’utiliser, le modifier et le distribuer librement.
+## 📜 License
+This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+
