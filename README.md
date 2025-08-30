@@ -40,7 +40,7 @@ It can execute commands, handle redirections, pipes, and several builtins.
 - ✅ Environment variables
 - ✅ Signal handling (`Ctrl-C`, `Ctrl-D`, `Ctrl-\`)
 - ✅ Builtins (`cd`, `echo`, `pwd`, `export`, `unset`, `env`, `exit`)
-<-->- 🚧 Advanced expansions (in progress)<--\>
+<!-- - 🚧 Advanced expansions (in progress) --> 
 
 ---
 
@@ -76,12 +76,15 @@ minishell> exit
 
 ```
 .
-├── bin/            # Content for README
-├── src/            # Source code (.c)
-├── minishell.h     # Header files (.h)
-
+├── bin/                # Content for README
+├── libft/              # Autorized functions library
+├── srcs/               # Source code (.c)
+├── subject_and_doc/    # Project 42 subject
 ├── Makefile
-└── README.md
+├── README.md
+├── fshell.sh            # Script to run Valgrind (Linux)
+├── minishell.h          # Header files (.h)
+└── readline_leaks.supp  # arguments to ignore readline known leaks with Valgrind
 ```
 
 ---
@@ -94,18 +97,24 @@ minishell> exit
 ---
 
 ## 🚀 Roadmap
-- [ ] Add logical operators `&&` and `||`
+<!-- - [ ] Add logical operators `&&` and `||`
 - [ ] Add command history
-- [ ] Implement auto-completion
+- [ ] Implement auto-completion -->
+
+There's no implementation in sight at this time.
 
 ---
 
 ## 👤 Credits
-Project developed by **Loïc Gérard** – [École 42 Perpignan](https://42perpignan.fr).  
-📧 Contact: loic.gerard4@…  
+Project developed by :
+- **Loïc Gérard** – 📧 Contact: lgerard@studend.42perpignan.fr - [École 42 Perpignan](https://42perpignan.fr).
+- [**Greg197819**](https://github.com/Greg197819).
 
 ---
 
 ## 📜 License
 This project is licensed under the MIT License. You are free to use, modify, and distribute it.
 
+> ⚠️ **Note for students**  
+> If you are a student at 42 (or elsewhere), it is strongly recommended **not to copy/paste** this code.  
+> Instead, try to **write your own solution** — it’s the only way to really learn and succeed.
