@@ -15,15 +15,15 @@
 ---
 
 ## 📖 Table of Contents
-- [Description](#-description)
-- [Features](#-features)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Examples](#-examples)
-- [Roadmap](#-roadmap)
-- [Credits](#-credits)
-- [License](#-license)
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Examples](#examples)
+- [Roadmap](#roadmap)
+- [Credits](#credits)
+- [License](#license)
 
 ---
 
