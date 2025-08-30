@@ -40,7 +40,7 @@ It can execute commands, handle redirections, pipes, and several builtins.
 - ✅ Environment variables
 - ✅ Signal handling (`Ctrl-C`, `Ctrl-D`, `Ctrl-\`)
 - ✅ Builtins (`cd`, `echo`, `pwd`, `export`, `unset`, `env`, `exit`)
-- 🚧 Advanced expansions (in progress)
+<-->- 🚧 Advanced expansions (in progress)<--\>
 
 ---
 
@@ -76,12 +76,10 @@ minishell> exit
 
 ```
 .
-├── include/        # Header files (.h)
+├── bin/            # Content for README
 ├── src/            # Source code (.c)
-│   ├── builtins/
-│   ├── exec/
-│   ├── parsing/
-│   ├── utils/
+├── minishell.h     # Header files (.h)
+
 ├── Makefile
 └── README.md
 ```
