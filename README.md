@@ -80,7 +80,7 @@ minishell> exit
 ├── libft/              # Autorized functions library
 ├── srcs/               # Source code (.c)
 ├── subject_and_doc/    # Project 42 subject
-├── licence.txt		    # License MIT
+├── LICENSE.txt		    # License MIT
 ├── Makefile
 ├── README.md
 ├── fshell.sh            # Script to run Valgrind (Linux)
