@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>minishell - 42 project</h2>
+  <h1>minishell - 42 project</h1>
   <img src="./bin/minishell.png"  />
   <br>
 </div>
@@ -80,7 +80,7 @@ minishell> exit
 ├── libft/              # Autorized functions library
 ├── srcs/               # Source code (.c)
 ├── subject_and_doc/    # Project 42 subject
-├── LICENSE.txt		    # License MIT
+├── LICENSE			    # License MIT
 ├── Makefile
 ├── README.md
 ├── fshell.sh            # Script to run Valgrind (Linux)
@@ -114,7 +114,7 @@ Project developed by :
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+This project is licensed under the MIT License. You are free to use, modify, and distribute it - see the [LICENSE](./LICENSE) file for details.
 
 > ⚠️ **Note for students**  
 > If you are a student at 42 (or elsewhere), it is strongly recommended **not to copy/paste** this code.  
